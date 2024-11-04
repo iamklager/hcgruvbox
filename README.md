@@ -9,8 +9,8 @@ hcgruvbox provides themes for [highcharter](https://github.com/jbkunst/highchart
 ## Demo screenshots
 
 <p align="center">
-  <img src="C:/Users/gk/Desktop/R_Code/hcgruvbox/.github/dark_mode.gif" width="45%" />
-  <img src="C:/Users/gk/Desktop/R_Code/hcgruvbox/.github/light_mode.gif" width="45%" />
+  <img src="https://github.com/iamklager/hcgruvbox/raw/main/.github/dark_mode.gif" width="45%" />
+  <img src="https://github.com/iamklager/hcgruvbox/raw/main/.github/light_mode.gif" width="45%" />
 </p>
 
 ## Installation
