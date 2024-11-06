@@ -1,3 +1,14 @@
+#' gruvbox inspired themes for highcharter
+#'
+#' Returns one of the six highcharter themes inspired by \url{https://github.com/morhetz/gruvbox}.
+#'
+#' @param mode Color mode of the chart. Either "dark" or "light".
+#' @param contrast Contrast of the chart. One of "hard", "medium" or "soft".
+#'
+#' @examples
+#' highcharts_demo() |>
+#'   hc_add_theme(hc_theme_gruvbox("dark", "hard"))
+#' @export
 hc_theme_gruvbox <- function(mode = "dark", contrast = "hard") {
 
   if (mode == "dark") {

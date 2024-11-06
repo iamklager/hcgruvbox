@@ -1,11 +1,17 @@
 Package: hcgruvbox
 Type: Package
 Title: gruvbox inspired themes for highcharter
-Version: 0.1.0
-Author: Gerhard Georg Klager
-Maintainer: Gerhard Georg Klager <gerhard.klager@gmail.com>
 Description: Provides functions to theme highcharter charts in a gruvbox style.
+Version: 0.1.0
+Authors@R: person("Gerhard Georg", "Klager", role = c("aut", "cre"), email = "gerhard.klager@gmail.com")
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
-Depends: highcharter
+Depends:
+  R (>= 2.10)
+Imports:
+  highcharter
+URL: https://github.com/iamklager/hcgruvbox
+Language: en-US
+RoxygenNote: 7.3.2
+Roxygen: list(markdown = TRUE)

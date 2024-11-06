@@ -1,3 +1,12 @@
+#' gruvbox inspired light theme for highcharter
+#'
+#' Inspired by \url{https://github.com/morhetz/gruvbox}
+#'
+#' @examples
+#' highcharts_demo() |>
+#'   hc_add_theme(hc_theme_gruvbox_light_hard())
+#' @importFrom highcharter hc_theme
+#' @export
 hc_theme_gruvbox_light_hard <- function() {
   theme <- highcharter::hc_theme(
     chart = list(

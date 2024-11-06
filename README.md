@@ -35,21 +35,18 @@ Selecting themes using their individual functions:
 ```{r}
 # Dark themes
 highcharts_demo() |>
-  hc_add_theme(hc_theme_gruvbox_dark_hard)
+  hc_add_theme(hc_theme_gruvbox_dark_hard())
 highcharts_demo() |>
-  hc_add_theme(hc_theme_gruvbox_dark_medium)
+  hc_add_theme(hc_theme_gruvbox_dark_medium())
 highcharts_demo() |>
-  hc_add_theme(hc_theme_gruvbox_dark_soft)
+  hc_add_theme(hc_theme_gruvbox_dark_soft())
 
 # Light themes
 highcharts_demo() |>
-  hc_add_theme(hc_theme_gruvbox_light_hard)
+  hc_add_theme(hc_theme_gruvbox_light_hard())
 highcharts_demo() |>
-  hc_add_theme(hc_theme_gruvbox_light_medium)
+  hc_add_theme(hc_theme_gruvbox_light_medium())
 highcharts_demo() |>
-  hc_add_theme(hc_theme_gruvbox_light_soft)
+  hc_add_theme(hc_theme_gruvbox_light_soft())
 ```
 
-## Dependencies
-
-The ''hcgruvbox'' package's only dependency is the [highcharter package](https://github.com/jbkunst/highcharter). It will be loaded, when loading the ''hcgruvbox'' package
