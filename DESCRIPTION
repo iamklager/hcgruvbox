@@ -4,7 +4,7 @@ Title: gruvbox inspired themes for highcharter
 Description: Provides functions to theme highcharter charts in a gruvbox style.
 Version: 0.1.0
 Authors@R: person("Gerhard Georg", "Klager", role = c("aut", "cre"), email = "gerhard.klager@gmail.com")
-License: What license is it under?
+License: MIT
 Encoding: UTF-8
 LazyData: true
 Depends:
